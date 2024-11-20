@@ -1,10 +1,12 @@
-import { DatePicker } from "./test-module";
+import { TooltipUI } from "./test-module";
 import "../css/app.css";
 import "../scss/style.scss";
 
 /********** Paste your code here! ************/
 
-window.onload = () => {
-  console.log("Paste your code here!");
-  DatePicker.init();
-};
+// window.onload = () => {
+//   console.log("Paste your code here!");
+//   TooltipUI.init();
+// };
+
+document.addEventListener("DOMContentLoaded", TooltipUI.init);
